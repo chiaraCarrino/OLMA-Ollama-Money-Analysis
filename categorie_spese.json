@@ -1,0 +1,189 @@
+{
+  "Supermercato & Alimentari": [
+    "Esselunga", "Coop", "Conad", "Lidl", "Aldi", "Eurospin", "Carrefour",
+    "Pam", "Penny Market", "In's Mercato", "Bennet", "Ipercoop", "Iper",
+    "Simply", "Famila", "Despar", "Spar", "Todis", "MD", "Tigros",
+    "Naturasì", "Bioexpress", "Gastronomia", "Fruttivendolo", "Panetteria",
+    "Macelleria", "Pescheria", "Salumeria", "Mercato Rionale", "Crai","cts", "Forno", "IN S",
+      "PAM","PANORAMA","PEWEX","IPERTRISCOUNT", "TOP SUPERMERCATI", "TOP", "Tigre"
+  ],
+
+  "Ristorazione & Bar": [
+    "McDonald's", "Burger King", "KFC", "Subway", "Old Wild West",
+    "Pizzeria", "Ristorante", "Trattoria", "Osteria", "Sushi bar",
+    "Kebab", "Poke", "Sushi", "Panineria", "Tavola calda",
+    "Bar", "Caffetteria", "Caffè", "Pasticceria", "Gelateria",
+    "Bakery", "Brioche Dorée", "Starbucks", "Paul", "Autogrill",
+    "Rosticceria", "Friggitoria", "Street food", "Food truck", "MC DONALDS", "MC DONALD","SPIZZALA","ALI BABA",
+      "ANAGNINA FOOD KIOS","BAR TAVOLA CALDA","BOTTEGA DEL CAFFE",
+      "CAFFE  PORTICI","CAFFETTERIA SPINEL","CANTINA COSTANTINI","CAPATOAST","CASA DEL CIOCCOLAT","CASA OZ",
+      "DA GIOVANNI RESTAURAN", "I LOVE POKE", "Gelato", "Palermitano",
+      "KEBAB","MOKA PADELLE", "BURGER","OLD WILD WEST","ROADHOUSE", "GIOVANNI RANA", "Fraschetta", "FORST"
+      
+  ],
+
+  "Carburante": [
+    "Eni", "IP", "Q8", "Shell", "TotalEnergies", "Tamoil",
+    "Agip", "Esso", "Beyfin", "Api", "Retitalia",
+    "Distributore", "Stazione di servizio", "Pompa di benzina",
+    "Elettra (ricarica EV)", "Enel X", "Be Charge", "Ewiva", "EASY SERVICE", "Goldegas","TOTAL ERG", "PV 44714", "PV ENI",  "Q8"
+  ],
+
+  "Trasporti": [
+    "Trenitalia", "Italo", "FlixBus", "Flixbus", "BlaBlaCar",
+    "ATM", "ATAC", "GTT", "AMT", "TPER", "Busitalia",
+    "Uber", "FREE NOW", "itTaxi", "Taxi",
+    "Autostrade per l'Italia", "Telepass", "MyCicero",
+    "Lime", "Dott", "Bird", "Helbiz", "Monopattino",
+    "Parcheggio", "ZTL", "Bollo auto", "Revisione auto",
+    "Autofficina", "Gommista", "Car wash", "Fiat", "Italotreno", "FIUMICINO"
+  ],
+
+  "Assicurazioni": [
+     "Gefas", "Groupama", "Allianz", "Facile.it", "Allianz Direct","Assicurazione salute",
+    "Generali", "UnipolSai",  "Reale Mutua", "AXA"
+  ],
+
+  "Casa-Utenze": [
+    "Enel", "ENI PLENITUDE", "Edison", "Acea", "A2A", "Hera", "Iren",
+    "Telecom Italia", "TIM", "Vodafone", "Wind Tre", "Fastweb", "Iliad",
+    "DAZN", "Sky", "Mediaset Infinity",
+    "Affitto", "Mutuo", "Condominio", "Amministratore condominiale"
+  ],
+
+      "Casa-Spese": [
+           "Ikea", "Leroy Merlin", "Bricoman", "Bricocenter", "OBI",
+    "Idraulico", "Elettricista", "Muratore", "Pulizie domestiche",
+   "BRICOMAN","ANAGNINA HFB ECO","CASALANDIA",
+      "CONFORAMA", "HAPPY CASA","JYSK", "KASANOVA","MAURY","PEPCO","RICA GEST",
+          "RISPARMIO CASA","satur", "TEDI", "vivai", "COSSUTO"
+  ],
+
+  "Salute & Farmacia": [
+    "Farmacia", "Parafarmacia", "Lloyds Farmacia", "Farmacia comunale",
+    "Boots", "DocTor Care", "MioDottore",
+    "ASL", "Ospedale", "Pronto Soccorso", "Poliambulatorio",
+    "Medico", "Dentista", "Oculista", "Fisioterapista", "Psicologo",
+    "Analisi cliniche", "Laboratorio", "Radiologia",
+    "Ottico", "Optissimo", "GrandVision", "Salmoiraghi & Viganò"
+  ],
+
+  "Shopping & Abbigliamento": [
+    "Zara", "H&M", "Mango", "Bershka", "Pull&Bear", "Stradivarius",
+    "OVS", "Calzedonia", "Intimissimi", "Tezenis", "Upim",
+    "Primark", "C&A", "United Colors of Benetton",
+    "Nike", "Adidas", "Footlocker", "JD Sports",
+    "Zalando", "ASOS", "Amazon Fashion", "Vinted",
+    "Coin", "La Rinascente", "Feltrinelli",
+    "Decathlon", "Intersport",
+    "Euronics", "Mediaworld", "Unieuro", "Expert",
+    "Apple Store", "Samsung Store", "Fnac","ACTION","ADIDASIT", "AMZN","CALEFFI", "BERSHKA","COSMO","DECATHLON", "Dyson", "Fashion", "GLOBO",
+      "Intersport", "JD", "KIKO","MOTOMANIAK", "corporate","TRIUMPH",
+      "PITTARELLO","PITTAROSSO","PRENATAL","PRIMARK","scarpe scarpe", "Smartbox", "SKECHERS",
+      "STROILI","TIGER", "ZUIKI", "zalando", "zuiki", "clinique", "UNIERUO", "TIGER", "Scarpe e Scarpe", "Cosmetica", "Cisalfa"
+  ],
+    
+
+  "Intrattenimento & Svago": [
+    "Cinema", "The Space Cinema", "UCI Cinemas", "Odeon",
+    "Teatro", "Concerti", "Ticketmaster", "TicketOne", "Eventbrite",
+    "Museo", "Parco divertimenti", "Gardaland", "Mirabilandia",
+    "Bowling", "Escape room", "Karting",
+    "Libreria", "Feltrinelli", "Mondadori",
+    "Giochi e videogiochi", "GameStop", "Gamestop",
+    "Lotteria", "Gratta e vinci", "Sisal", "Lottomatica",
+    "Discoteca", "Club", "Locale notturno", "Pub", "Hotel"
+  ],
+
+  "Abbonamenti & Servizi digitali": [
+    "Netflix", "Disney+", "Amazon Prime", "Apple TV+", "Paramount+",
+    "Spotify", "Apple Music", "YouTube Premium", "Deezer", "Tidal",
+    "Adobe", "Microsoft 365", "Google One", "iCloud",
+    "DAZN", "Sky Go", "Mediaset Infinity",
+    "Dropbox", "NordVPN", "Surfshark",
+    "Kindle Unlimited", "Audible", "Storytel",
+    "ChatGPT", "Claude", "Midjourney", "Canva Pro",
+    "Antivirus", "Password manager", "1Password", "LastPass","TELEFONICA"
+  ],
+
+  "Sport & Benessere": [
+    "Palestra", "Virgin Active", "McFIT", "FitActive", "Technogym",
+    "Piscina", "Centro sportivo", "Campo da tennis", "Padel club",
+    "Yoga studio", "Pilates", "CrossFit",
+    "Personal trainer", "Nutrizionista", "Dietista",
+    "Spa", "Centro benessere", "Massaggi", "Sauna",
+    "Barbiere", "Parrucchiere", "Centro estetico", "Nail salon"
+    
+  ],
+
+  "Viaggi & Vacanze": [
+    "Ryanair", "EasyJet", "Volotea", "Wizz Air", "ITA Airways",
+    "Trenitalia (lunga percorrenza)", "Italo",
+    "Booking.com", "Airbnb", "Hotels.com", "Expedia", "Trivago",
+    "TripAdvisor", "Viator", "GetYourGuide",
+    "Agenzia viaggi", "Alpitour", "Turisanda", "Veratour",
+    "Hertz", "Europcar", "Avis", "Sixt", "Maggiore",
+    "Traghetti", "Grimaldi Lines", "Grandi Navi Veloci",
+    "Tour operator", "Escursione", "Crociera", "MSC Crociere"
+  ],
+
+  "Istruzione & Libri": [
+    "Università", "Tasse universitarie", "Libri universitari",
+    "Scuola", "Retta scolastica", "Libri scolastici",
+    "Corsi online", "Udemy", "Coursera", "Skillshare", "MasterClass",
+    "Duolingo", "Babbel", "Rosetta Stone",
+    "Ripetizioni", "Tutoraggio",
+    "Feltrinelli", "Mondadori", "Libreria Hoepli", "IBS",
+    "Amazon libri", "Kindle", "eBay libri",
+    "Cancelleria", "Cartolibreria", "Legatoria","LAFELTRINELLI"
+  ],
+
+  "Tasse & Banche": [
+    "Agenzia delle Entrate", "F24", "Modello Unico", "730",
+    "INPS", "INAIL", "Camera di Commercio",
+    "Comune", "Municipio", "IMU", "TARI", "Bollo auto",
+    "Banca", "Unicredit", "Intesa Sanpaolo", "BNL", "Monte dei Paschi",
+    "Fineco", "ING Direct", "N26", "Hype",
+    "PayPal", "Satispay", "Commissioni bancarie",
+    "Assicurazione auto", "Assicurazione vita",
+    "Notaio", "Commercialista", "Avvocato", "Consulente fiscale", "PagoPA", "IMPOSTA BOLLO", "SPEDIZIONE CARTA"
+  ],
+
+  "Regali & Donazioni": [
+    "Florajet", "Interflora", "Fiori", "Fioraio",
+    "Amazon (regalo)", "Zalando (regalo)", "Feltrinelli (regalo)",
+    "Biglietteria eventi (regalo)", "Gift card", "Buono regalo",
+    "Croce Rossa", "UNICEF", "Medici Senza Frontiere", "Save the Children",
+    "WWF", "Greenpeace", "Amnesty International", "FAO",
+    "Parrocchia", "Offerta religiosa", "Raccolta fondi",
+    "Regali compleanno", "Regali natale", "Regali matrimonio", "AIRC"
+  ],
+
+  "Stipendio & Reddito": [
+    "Stipendio", "Busta paga", "Accredito stipendio",
+    "Pensione", "INPS pensione",
+    "Bonifico stipendio", "Pagamento mensile",
+    "Compenso professionale", "Onorario", "Parcella",
+    "Rimborso spese", "Note spese", "Retribuzione mese" 
+  ],
+
+  "Entrate extra": [
+    "Freelance", "Lavoro occasionale", "Prestazione occasionale",
+    "Vendita online", "eBay", "Vinted", "Subito.it", "Facebook Marketplace",
+    "Rimborso", "Cashback", "Bonus", "Premio",
+    "Affitto percepito", "Dividendi", "Interessi",
+    "Eredità", "Donazione ricevuta", "Vincita", "BONIFICO A VOSTRO FAVORE"
+  ],
+
+  "Trasferimento tra conti": [
+    "Bonifico", "Giroconto", "Trasferimento interno",
+    "Revolut", "N26", "Hype", "Satispay", "PayPal",
+    "Prelievo ATM", "Versamento contante",
+    "Ricarica PostePay", "PostePay", "Ricarica prepagata", "Ricarica Plutus"
+  ],
+
+  "Altro": [
+    "Generico", "Varie", "Miscellaneo", "Non classificato",
+    "Spesa non identificata", "Da verificare"
+  ]
+}

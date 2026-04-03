@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+.git/
+.gitignore
+*.egg-info/
+.env
+venv/
+.venv/
+*.db
+cache_ollama
+cache_ollama*
+*.ipynb_checkpoints/

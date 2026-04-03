@@ -1,0 +1,101 @@
+data,importo,nome_merchant,categoria,descrizione
+2024-01-05,-179.32,Palestra FitLife,Sport,Pagamento Palestra FitLife
+2024-01-05,-57.39,Decathlon,Sport,Pagamento Decathlon
+2024-01-06,-124.3,McDonald's,Ristoranti,Pagamento McDonald's
+2024-01-17,-94.98,Carrefour,Supermercati,Pagamento Carrefour
+2024-01-22,-168.29,Bar Centrale,Bar & Caffè,Pagamento Bar Centrale
+2024-01-29,-145.88,Coop,Supermercati,Pagamento Coop
+2024-01-30,-170.72,Palestra FitLife,Sport,Pagamento Palestra FitLife
+2024-01-31,2219.41,Stipendio Azienda SRL,Stipendio,Accredito Stipendio Azienda SRL
+2024-02-07,-51.41,Zara,Abbigliamento,Pagamento Zara
+2024-02-08,-154.79,Cinema Odeon,Svago,Pagamento Cinema Odeon
+2024-02-10,-22.68,Cinema Odeon,Svago,Pagamento Cinema Odeon
+2024-02-13,-17.11,Libreria Feltrinelli,Cultura,Pagamento Libreria Feltrinelli
+2024-02-17,-110.35,Zara,Abbigliamento,Pagamento Zara
+2024-02-17,-46.37,Cinema Odeon,Svago,Pagamento Cinema Odeon
+2024-02-18,294.17,Dividendi,Investimenti,Accredito Dividendi
+2024-02-20,413.44,Affitto stanza,Entrata,Accredito Affitto stanza
+2024-02-27,-84.4,Pizzeria da Mario,Ristoranti,Pagamento Pizzeria da Mario
+2024-03-11,-137.26,Carrefour,Supermercati,Pagamento Carrefour
+2024-03-12,-134.62,Enel Energia,Bollette,Pagamento Enel Energia
+2024-03-14,-135.37,ENI,Carburante,Pagamento ENI
+2024-03-19,-99.39,Pizzeria da Mario,Ristoranti,Pagamento Pizzeria da Mario
+2024-03-21,383.2,Affitto stanza,Entrata,Accredito Affitto stanza
+2024-03-23,-128.49,Decathlon,Sport,Pagamento Decathlon
+2024-04-03,-158.04,ENI,Carburante,Pagamento ENI
+2024-04-05,2207.01,Stipendio Azienda SRL,Stipendio,Accredito Stipendio Azienda SRL
+2024-04-08,-29.53,Dr. Rossi Studio Medico,Salute,Pagamento Dr. Rossi Studio Medico
+2024-04-22,-139.45,Libreria Feltrinelli,Cultura,Pagamento Libreria Feltrinelli
+2024-04-22,2189.16,Stipendio Azienda SRL,Stipendio,Accredito Stipendio Azienda SRL
+2024-04-30,-104.69,Bar Centrale,Bar & Caffè,Pagamento Bar Centrale
+2024-05-04,-76.24,Uber,Trasporti,Pagamento Uber
+2024-05-08,-13.89,Cinema Odeon,Svago,Pagamento Cinema Odeon
+2024-05-13,-59.98,Acqua Comune Milano,Bollette,Pagamento Acqua Comune Milano
+2024-05-15,-84.63,Uber,Trasporti,Pagamento Uber
+2024-05-15,-117.96,Enel Energia,Bollette,Pagamento Enel Energia
+2024-05-18,-125.43,Vodafone,Telefonia,Pagamento Vodafone
+2024-05-22,-68.85,Libreria Feltrinelli,Cultura,Pagamento Libreria Feltrinelli
+2024-05-22,-99.37,Trattoria Centrale,Ristoranti,Pagamento Trattoria Centrale
+2024-05-24,-65.0,Acqua Comune Milano,Bollette,Pagamento Acqua Comune Milano
+2024-05-25,408.14,Affitto stanza,Entrata,Accredito Affitto stanza
+2024-05-31,-106.36,Coop,Supermercati,Pagamento Coop
+2024-06-01,-111.57,Zara,Abbigliamento,Pagamento Zara
+2024-06-14,-167.59,McDonald's,Ristoranti,Pagamento McDonald's
+2024-06-19,-176.46,Vodafone,Telefonia,Pagamento Vodafone
+2024-06-21,283.87,Dividendi,Investimenti,Accredito Dividendi
+2024-06-22,389.2,Affitto stanza,Entrata,Accredito Affitto stanza
+2024-06-23,-172.51,Trattoria Centrale,Ristoranti,Pagamento Trattoria Centrale
+2024-06-27,-47.75,Bar Centrale,Bar & Caffè,Pagamento Bar Centrale
+2024-07-08,-51.72,Enel Energia,Bollette,Pagamento Enel Energia
+2024-07-08,-80.21,Burger King,Ristoranti,Pagamento Burger King
+2024-07-12,93.18,Rimborso spese,Entrata,Accredito Rimborso spese
+2024-07-23,-70.35,Vodafone,Telefonia,Pagamento Vodafone
+2024-07-24,-164.8,Trattoria Centrale,Ristoranti,Pagamento Trattoria Centrale
+2024-07-27,-156.31,Trattoria Centrale,Ristoranti,Pagamento Trattoria Centrale
+2024-07-29,-14.48,Trenitalia,Trasporti,Pagamento Trenitalia
+2024-08-02,-53.68,Palestra FitLife,Sport,Pagamento Palestra FitLife
+2024-08-04,-71.78,Amazon Prime,Abbonamenti,Pagamento Amazon Prime
+2024-08-04,-179.2,Trenitalia,Trasporti,Pagamento Trenitalia
+2024-08-22,-168.75,ATM Milano,Trasporti,Pagamento ATM Milano
+2024-08-27,-155.64,Decathlon,Sport,Pagamento Decathlon
+2024-08-31,-51.38,Pizzeria da Mario,Ristoranti,Pagamento Pizzeria da Mario
+2024-09-12,-117.5,Caffè Verdi,Bar & Caffè,Pagamento Caffè Verdi
+2024-09-21,-44.32,ENI,Carburante,Pagamento ENI
+2024-09-30,-85.9,Pizzeria da Mario,Ristoranti,Pagamento Pizzeria da Mario
+2024-10-01,-117.17,ATM Milano,Trasporti,Pagamento ATM Milano
+2024-10-02,-79.98,Palestra FitLife,Sport,Pagamento Palestra FitLife
+2024-10-04,62.29,Rimborso spese,Entrata,Accredito Rimborso spese
+2024-10-06,281.27,Dividendi,Investimenti,Accredito Dividendi
+2024-10-11,-32.09,H&M,Abbigliamento,Pagamento H&M
+2024-10-14,-127.73,Vodafone,Telefonia,Pagamento Vodafone
+2024-10-14,2217.8,Stipendio Azienda SRL,Stipendio,Accredito Stipendio Azienda SRL
+2024-10-17,-42.21,Netflix,Abbonamenti,Pagamento Netflix
+2024-10-23,-19.35,TIM,Telefonia,Pagamento TIM
+2024-10-25,-179.53,ENI,Carburante,Pagamento ENI
+2024-10-26,-154.23,Caffè Verdi,Bar & Caffè,Pagamento Caffè Verdi
+2024-11-09,-119.45,Uber,Trasporti,Pagamento Uber
+2024-11-12,-106.04,Spotify,Abbonamenti,Pagamento Spotify
+2024-11-20,-12.72,Q8,Carburante,Pagamento Q8
+2024-11-23,69.8,Rimborso spese,Entrata,Accredito Rimborso spese
+2024-11-30,-15.61,McDonald's,Ristoranti,Pagamento McDonald's
+2024-12-02,-60.36,Zara,Abbigliamento,Pagamento Zara
+2024-12-05,140.58,Bonifico Mario Rossi,Entrata,Accredito Bonifico Mario Rossi
+2024-12-15,-116.12,TIM,Telefonia,Pagamento TIM
+2024-12-17,-93.45,Q8,Carburante,Pagamento Q8
+2024-12-19,-11.3,Decathlon,Sport,Pagamento Decathlon
+2024-12-26,160.92,Bonifico Mario Rossi,Entrata,Accredito Bonifico Mario Rossi
+2025-01-04,-175.08,Q8,Carburante,Pagamento Q8
+2025-01-05,-105.84,Palestra FitLife,Sport,Pagamento Palestra FitLife
+2025-01-07,-24.12,Cinema Odeon,Svago,Pagamento Cinema Odeon
+2025-01-08,-175.3,McDonald's,Ristoranti,Pagamento McDonald's
+2025-01-21,-129.77,Trattoria Centrale,Ristoranti,Pagamento Trattoria Centrale
+2025-01-24,-27.47,Burger King,Ristoranti,Pagamento Burger King
+2025-01-25,2214.82,Stipendio Azienda SRL,Stipendio,Accredito Stipendio Azienda SRL
+2025-02-02,-5.1,Caffè Verdi,Bar & Caffè,Pagamento Caffè Verdi
+2025-03-09,-146.25,Q8,Carburante,Pagamento Q8
+2025-03-16,161.68,Bonifico Mario Rossi,Entrata,Accredito Bonifico Mario Rossi
+2025-03-16,68.4,Rimborso spese,Entrata,Accredito Rimborso spese
+2025-03-21,157.93,Bonifico Mario Rossi,Entrata,Accredito Bonifico Mario Rossi
+2025-03-22,-167.56,Trattoria Centrale,Ristoranti,Pagamento Trattoria Centrale
+2025-03-25,-58.81,Uber,Trasporti,Pagamento Uber
+2025-03-31,386.22,Affitto stanza,Entrata,Accredito Affitto stanza

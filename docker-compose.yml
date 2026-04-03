@@ -1,0 +1,65 @@
+version: "3.8"
+
+services:
+
+  # ─────────────────────────────────────────
+  # Servizio principale: app Streamlit
+  # ─────────────────────────────────────────
+  olma:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      # Se l'utente ha Ollama sul suo PC, può sovrascrivere questa variabile
+      # nel file .env (vedi .env.example)
+      # Se usa il profilo --profile with-ollama, questo default funziona già
+      - OLLAMA_URL=${OLLAMA_URL:-http://ollama:11434/api/generate}
+    volumes:
+      # Persiste la cache delle classificazioni Ollama tra un riavvio e l'altro
+      - ./cache_ollama:/app/cache_ollama
+    restart: unless-stopped
+
+  # ─────────────────────────────────────────
+  # Servizio Ollama (OPZIONALE)
+  # Si avvia solo con: docker-compose --profile with-ollama up
+  # ─────────────────────────────────────────
+  ollama:
+    image: ollama/ollama
+    profiles:
+      - with-ollama
+    volumes:
+      # Persiste il modello scaricato (~2GB) tra un riavvio e l'altro
+      # In questo modo viene scaricato una volta sola
+      - ollama_models:/root/.ollama
+    ports:
+      - "11434:11434"
+    restart: unless-stopped
+
+  # ─────────────────────────────────────────
+  # Servizio temporaneo: scarica llama3.2 al primo avvio
+  # Parte e si ferma da solo una volta completato il download
+  # Si avvia solo con: docker-compose --profile with-ollama up
+  # ─────────────────────────────────────────
+  model-puller:
+    image: curlimages/curl:latest
+    profiles:
+      - with-ollama
+    depends_on:
+      - ollama
+    command: >
+      sh -c "
+        echo 'Aspetto che Ollama sia pronto...';
+        until curl -s http://ollama:11434/api/tags > /dev/null 2>&1; do
+          echo 'Ollama non ancora pronto, riprovo tra 3 secondi...';
+          sleep 3;
+        done;
+        echo 'Ollama pronto. Scarico llama3.2 (~2GB, potrebbe volerci qualche minuto)...';
+        curl -s http://ollama:11434/api/pull -d '{\"name\":\"llama3.2\"}';
+        echo 'Modello scaricato e pronto.'
+      "
+    restart: "no"
+
+volumes:
+  # Volume Docker gestito automaticamente per il modello Ollama
+  # Persiste anche se i container vengono fermati o rimossi
+  ollama_models:
