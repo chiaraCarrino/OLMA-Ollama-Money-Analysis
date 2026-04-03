@@ -1,9 +1,33 @@
-# OLMA 💳
+<p align="center">
+  <img src="images/olma_piccola.png" width="300"/>
+</p>
+
+<p align="center">
+  🇮🇹 <a href="README_IT.md">Versione italiana</a>
+</p>
+
+---
+
 ### *Have you ever tried to analyze your bank transactions and ended up staring at a CSV with dates in three different formats, amounts with mismatched decimal separators, columns named "Txn Amount (Funding Card)", and merchants written as `POS 00234 VISA CARREFOUR MKT`?*
 
 Online solutions exist — Spendee, Revolut Analytics, various budgeting tools. But they all share two fundamental problems: **you have to upload your banking data to third-party servers**, and they rarely support the raw export format your bank actually produces.
 
 **OLMA** was born out of this frustration. It is a **fully local** application that runs on your own machine, sends no data to any cloud service, and turns any bank CSV — however messy — into a complete analytics dashboard covering as many years of history as you want to explore.
+
+---
+
+## Screenshots
+
+<p align="center">
+  <img src="assets/screen_start.png" width="800"/>
+  <br/>
+  <em>Home — upload and column mapping</em>
+</p>
+<p align="center">
+  <img src="assets/screen_dashboard.png" width="800"/>
+  <br/>
+  <em>Dashboard — income and expense analysis</em>
+</p>
 
 ---
 
@@ -49,6 +73,14 @@ Bank transactions are sensitive personal data. Ollama runs the model **entirely 
 
 The prompt engineering uses **constrained generation**: the model receives a closed list of 20 categories and must respond exclusively in JSON, making the output reliably parseable without complex post-processing.
 
+
+<p align="center">
+  <img src="assets/screen_ollama.png" width="800"/>
+  <br/>
+  <em>Ollama enrichment</em>
+</p>
+
+
 ---
 
 ## Tech stack
@@ -75,8 +107,8 @@ The prompt engineering uses **constrained generation**: the model receives a clo
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/olma.git
-cd olma
+git clone https://github.com/chiaraCarrino/OLMA-Ollama-Money-Analysis.git
+cd OLMA-Ollama-Money-Analysis
 ```
 
 ---
@@ -186,12 +218,15 @@ olma/
 ├── categorie_spese.json               # Category dictionary (customizable)
 ├── esempio_pulito.csv                 # Clean demo file
 ├── esempio_sporco.csv                 # Messy demo file
+├── assets/                            # README images
+│   ├── screenshot_home.png
+│   └── screenshot_dashboard.png
 ├── images/
 │   └── olma_piccola.png
 ├── Dockerfile
 ├── docker-compose.yml
 ├── requirements.txt
-├── .env.example                       # Environment variable template
+├── .env.example
 └── .gitignore
 ```
 
@@ -209,4 +244,4 @@ olma/
 
 ## License
 
-MIT — free to use, modify, and distribute.
+Apache License 2.0

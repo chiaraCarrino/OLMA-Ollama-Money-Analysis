@@ -1,3 +1,13 @@
+<p align="center">
+  <img src="images/olma_piccola.png" width="300"/>
+</p>
+
+<p align="center">
+  EN <a href="README.md">Versione italiana</a>
+</p>
+
+---
+
 # OLMA 💳
 ### *Ti è mai capitato di voler analizzare i tuoi movimenti bancari e trovarti davanti a un CSV con date in tre formati diversi, importi con la virgola che fa le virgolette, colonne che si chiamano "Txn Amount (Funding Card)" e merchant scritti come `POS 00234 VISA CARREFOUR MKT`?*
 
@@ -17,6 +27,21 @@ Esistono soluzioni online — Spendee, Revolut Analytics, strumenti di budget va
 - **Dashboard di analisi** con Plotly: spese per categoria, andamento temporale con granularità mensile/settimanale/giornaliera, heatmap categoria×mese, top merchant, risparmio effettivo mensile e annuale con media mobile e cumulato
 - **Export** in CSV e Excel filtrati
 - **Supporto multilingua** (IT / EN)
+
+---
+
+## Screenshots
+
+<p align="center">
+  <img src="assets/screen_start.png" width="800"/>
+  <br/>
+  <em>Home — upload and column mapping</em>
+</p>
+<p align="center">
+  <img src="assets/screen_dashboard.png" width="800"/>
+  <br/>
+  <em>Dashboard — income and expense analysis</em>
+</p>
 
 ---
 
@@ -46,6 +71,13 @@ Descrizione transazione
 
 **Perché Ollama e non un'API cloud?**
 I dati bancari sono dati personali sensibili. Ollama fa girare il modello **interamente in locale**: nessun token viene inviato a OpenAI, Anthropic o qualsiasi altro servizio esterno. Il modello `llama3.2` viene scaricato una volta sola e poi funziona offline.
+
+
+<p align="center">
+  <img src="assets/screen_ollama.png" width="800"/>
+  <br/>
+  <em>Ollama enrichment</em>
+</p>
 
 ---
 
