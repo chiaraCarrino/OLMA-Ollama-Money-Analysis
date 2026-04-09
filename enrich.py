@@ -31,7 +31,9 @@ OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.2")
 EXAMPLES_FILE = "categorie_spese.json"
 
 _BASE = os.getcwd()
-CACHE_FILE = os.path.join(_BASE, "cache_ollama")
+os.makedirs("/app/cache_ollama", exist_ok=True)
+CACHE_FILE = "/app/cache_ollama/cache"
+#CACHE_FILE = os.path.join(_BASE, "cache_ollama")
 
 CATEGORIE = [
     "Supermercato & Alimentari",
