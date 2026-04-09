@@ -5,7 +5,8 @@ services:
   # Servizio principale: app Streamlit
   # ─────────────────────────────────────────
   olma:
-    build: .
+    #build: .
+    image: ghcr.io/chiaracarrino/olma-ollama-money-analysis:latest
     name: olma
     ports:
       - "8501:8501"
