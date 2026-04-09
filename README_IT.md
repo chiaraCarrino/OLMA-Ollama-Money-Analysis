@@ -4,6 +4,10 @@
 
 <p align="center">
   🇬🇧 <a href="README.md">English version</a>
+  &nbsp;|&nbsp;
+  <a href="https://github.com/chiaraCarrino/OLMA-Ollama-Money-Analysis/pkgs/container/olma-ollama-money-analysis">
+    <img src="https://img.shields.io/badge/Docker-GHCR-blue?logo=docker" alt="Docker Image"/>
+  </a>
 </p>
 
 ---
@@ -173,6 +177,29 @@ Descrizione transazione
 - Nient'altro — Ollama è opzionale (vedi sotto)
 
 ---
+
+## Prova senza clonare il repo
+
+Se vuoi avviare OLMA senza scaricare il codice sorgente:
+
+```bash
+# 1. Scarica solo i due file di configurazione necessari
+curl -O https://raw.githubusercontent.com/chiaracarrino/olma-ollama-money-analysis/main/docker-compose.yml
+curl -O https://raw.githubusercontent.com/chiaracarrino/olma-ollama-money-analysis/main/.env.example
+
+# 2. Configura l'ambiente
+cp .env.example .env
+
+# 3. Avvia (Docker scarica l'immagine pre-compilata automaticamente)
+docker-compose --profile with-ollama up
+```
+
+L'immagine pre-compilata è ospitata su GitHub Container Registry e viene scaricata automaticamente — nessun passaggio di build necessario.
+
+> L'immagine Docker viene ricompilata e pubblicata automaticamente ad ogni aggiornamento del branch `main`.
+
+---
+
 
 ## Installazione
 

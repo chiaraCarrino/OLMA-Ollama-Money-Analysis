@@ -4,6 +4,10 @@
 
 <p align="center">
   🇮🇹 <a href="README_IT.md">Versione italiana</a>
+  &nbsp;|&nbsp;
+  <a href="https://github.com/chiaraCarrino/OLMA-Ollama-Money-Analysis/pkgs/container/olma-ollama-money-analysis">
+    <img src="https://img.shields.io/badge/Docker-GHCR-blue?logo=docker" alt="Docker Image"/>
+  </a>
 </p>
 
 ---
@@ -178,6 +182,27 @@ Transaction description
 
 - [Docker](https://www.docker.com/products/docker-desktop) and Docker Compose installed
 - Nothing else — Ollama is optional (see below)
+
+---
+## Try it without cloning
+
+If you just want to run OLMA without downloading the source code:
+
+```bash
+# 1. Download only the two config files you need
+curl -O https://raw.githubusercontent.com/chiaracarrino/olma-ollama-money-analysis/main/docker-compose.yml
+curl -O https://raw.githubusercontent.com/chiaracarrino/olma-ollama-money-analysis/main/.env.example
+
+# 2. Set up your environment
+cp .env.example .env
+
+# 3. Run (Docker pulls the pre-built image automatically)
+docker-compose --profile with-ollama up
+```
+
+The pre-built image is hosted on GitHub Container Registry and is pulled automatically — no build step needed.
+
+> The Docker image is automatically rebuilt and published on every update to `main`.
 
 ---
 
