@@ -3,6 +3,10 @@ name: Build and Push Docker Image
 on:
   push:
     branches: [ "main" ]
+    paths-ignore:
+      - '**.md'
+      - 'assets/**'
+      - 'images/**'
 
 env:
   REGISTRY: ghcr.io
