@@ -536,6 +536,8 @@ if needs_enrich and not enrich_done:
                 status_box   = st.empty()
                 stopped      = False
 
+                #with shelve.open(enrich_mod.CACHE_FILE) as cache:
+                os.makedirs(os.path.dirname(enrich_mod.CACHE_FILE), exist_ok=True)
                 with shelve.open(enrich_mod.CACHE_FILE) as cache:
                     for idx, desc in enumerate(descrizioni_uniche):
 
