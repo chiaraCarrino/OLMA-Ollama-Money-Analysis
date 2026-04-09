@@ -26,9 +26,9 @@ services:
     volumes:
       # Persiste la cache delle classificazioni Ollama tra un riavvio e l'altro
       # Cache classificazioni (shelve + MD5)
-      - ./cache_ollama:/app/cache_ollama
+      - cache_ollama:/app/cache_ollama
       # Cache/history agente chat (per sviluppi futuri)
-      - ./cache_chat:/app/cache_chat
+      - cache_chat:/app/cache_chat
     
     restart: unless-stopped
 
@@ -86,3 +86,5 @@ volumes:
   # Volume Docker gestito automaticamente per il modello Ollama
   # Persiste anche se i container vengono fermati o rimossi
   ollama_models:
+  cache_ollama:
+  cache_chat:
