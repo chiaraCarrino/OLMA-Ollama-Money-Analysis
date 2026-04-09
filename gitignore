@@ -9,6 +9,7 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+*.pyc
 
 # ─────────────────────────────────────────────────────────────
 # Ambienti virtuali
@@ -24,13 +25,13 @@ ENV/
 .env
 
 # ─────────────────────────────────────────────────────────────
-# Cache Ollama — generata automaticamente, non serve nel repo
+# Cache Ollama 
 # ─────────────────────────────────────────────────────────────
 cache_ollama*
 cache_ollama/
 
 # ─────────────────────────────────────────────────────────────
-# Dati personali — non caricare mai CSV con movimenti reali
+# Dati personali 
 # ─────────────────────────────────────────────────────────────
 movimenti*.csv
 estratto*.csv

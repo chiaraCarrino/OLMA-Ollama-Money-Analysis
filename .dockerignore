@@ -10,4 +10,6 @@ venv/
 *.db
 cache_ollama
 cache_ollama*
+cache_chat*
+cache_chat
 *.ipynb_checkpoints/

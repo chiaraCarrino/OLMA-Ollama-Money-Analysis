@@ -9,7 +9,8 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import os
 from translations import t, months_dict, months_short_list
-
+from chat_agent import ask_agent#build_chat_agent, ask_agent
+##from chat_agent import build_graph, ask_agent
 # ─────────────────────────────────────────────
 # CONFIG PAGINA
 # ─────────────────────────────────────────────
@@ -832,3 +833,45 @@ with col_exp2:
         )
     except ImportError:
         st.caption(t("export_openpyxl"))
+
+
+
+with st.container(border=True):
+    section_header("💬", t("chat_detail_title"), t("chat_detail_desc"))
+
+
+
+    # ── Pagina chat ────────────────────────────────────────────────────────────
+    
+    df_chat = df  
+    
+    if df_chat is None:
+        st.warning(t("chat_error"))
+        st.stop()
+    
+    # Non serve più build_chat_agent — inizializziamo solo la history
+    if "chat_history" not in st.session_state:
+        st.session_state["chat_history"] = []
+    
+    history = st.session_state["chat_history"]
+    
+    # ── Mostra la history ──────────────────────────────────────────────────────
+    for msg in history:
+        with st.chat_message(msg["role"]):
+            st.markdown(msg["content"])
+    
+    # ── Input utente ───────────────────────────────────────────────────────────
+    domanda = st.chat_input(t("chat_question_load"))
+    
+    if domanda:
+        with st.chat_message("user"):
+            st.markdown(domanda)
+        history.append({"role": "user", "content": domanda})
+    
+        with st.chat_message("assistant"):
+            with st.spinner(t("chat_elaboration")):
+                risposta = ask_agent(domanda, df_chat)  # ← ordine parametri cambiato
+            st.markdown(risposta)
+    
+        history.append({"role": "assistant", "content": risposta})
+        st.session_state["chat_history"] = history
