@@ -7,7 +7,6 @@ services:
   olma:
     #build: .
     image: ghcr.io/chiaracarrino/olma-ollama-money-analysis:latest
-    container_name: olma
     ports:
       - "8501:8501"
     environment:
